@@ -1,6 +1,6 @@
 flatButtons.css
 ==============
-The fastest and easiest way to create amazing buttons with a flat style. :)
+The fastest and easiest way to create amazing buttons with a flat style.
 
 
 

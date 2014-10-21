@@ -1,0 +1,212 @@
+
+/*
+ * 
+ * 
+ * flatButtons.css - http://www.danielepetrarolo.com/lab/flatButtons.css
+ * Version: 1.0.0
+ * Author: Daniele Petrarolo - http://www.danielepetrarolo.com
+ * 
+ * 
+ * 
+ * Copyright (c) 2014 Daniele Petrarolo
+ * 
+ * Permission is hereby granted, free of charge, to any person
+ * obtaining a copy of this software and associated documentation
+ * files (the "Software"), to deal in the Software without
+ * restriction, including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following
+ * conditions:
+ * 
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ * OTHER DEALINGS IN THE SOFTWARE.
+ * 
+ * 
+ * 
+ */
+
+
+
+/*/ --- THE BUTTON --- /*/
+
+.flatButton{
+	background-clip: padding-box !important;
+	
+	-webkit-transition: -webkit-transform 150ms linear, box-shadow 150ms linear;
+	-moz-transition: -moz-transform 150ms linear, box-shadow 150ms linear;
+	-ms-transition: -ms-transform 150ms linear, box-shadow 150ms linear;
+	-o-transition: -o-transform 150ms linear, box-shadow 150ms linear;
+	transition: transform 150ms linear, box-shadow 150ms linear;
+}
+.flatButton:active,
+.flatButton.active{
+	-webkit-transform: translateY(5px);
+	-moz-transform: translateY(5px);
+	-ms-transform: translateY(5px);
+	-o-transform: translateY(5px);
+	transform: translateY(5px);
+}
+
+
+
+
+/*/ --- BUTTON STYLES --- /*/
+
+.fb-rounded-low{
+	border-radius: 10px;
+}
+.fb-rounded-medium{
+	border-radius: 20px;
+}
+.fb-rounded-high{
+	border-radius: 40px;
+}
+.fb-rounded-full{
+	border-radius:50%;
+}
+
+
+
+
+
+
+/*/ --- FLAT COLORS /*/
+
+.fb-yellow{
+	background: #f1c40f;
+	box-shadow: 0px 5px 0px 0px #d0ad1f;
+}
+.fb-yellow:active,
+.fb-yellow.active{
+	box-shadow: 0px 0px 0px 0px #d0ad1f;
+}
+
+.fb-orange{
+	background: #f39c12;
+	box-shadow: 0px 5px 0px 0px #d35400;
+}
+.fb-orange:active,
+.fb-orange:active{
+	box-shadow: 0px 0px 0px 0px #d35400;
+}
+
+.fb-blue{
+	background: #19B5FE;
+	box-shadow: 0px 5px 0px 0px #1490cb;
+}
+.fb-blue:active,
+.fb-blue:active{
+	background: #19B5FE;
+	box-shadow: 0px 0px 0px 0px #1490cb;
+}
+
+.fb-green{
+	background: #1abc9c;
+	box-shadow: 0px 5px 0px 0px #14967c;
+}
+.fb-green:active,
+.fb-green.active{
+	background: #1abc9c;
+	box-shadow: 0px 0px 0px 0px #14967c;
+}
+
+.fb-ming{
+	background: #336E7B;
+	box-shadow: 0px 5px 0px 0px #285862;
+}
+.fb-ming:active,
+.fb-ming.active{
+	background: #336E7B;
+	box-shadow: 0px 0px 0px 0px #285862;
+}
+
+.fb-fuxia{
+	background: #9B59B6;
+	box-shadow: 0px 5px 0px 0px #7c4791;
+}
+.fb-fuxia:active,
+.fb-fuxia:active{
+	background: #9B59B6;
+	box-shadow: 0px 0px 0px 0px #7c4791;
+}
+
+.fb-lightfuxia{
+	background: #BE90D4;
+	box-shadow: 0px 5px 0px 0px #9873a9;
+}
+.fb-lightfuxia:active,
+.fb-lightfuxia.active{
+	background: #BE90D4;
+	box-shadow: 0px 0px 0px 0px #9873a9;
+}
+
+.fb-wet{
+	background: #34495E;
+	box-shadow: 0px 5px 0px 0px #243241;
+}
+.fb-wet:active,
+.fb-wet.active{
+	background: #34495E;
+	box-shadow: 0px 0px 0px 0px #243241;
+}
+
+.fb-aqua{
+	background: #33CCCC;
+	box-shadow: 0px 5px 0px 0px #28a3a3;
+}
+.fb-aqua:active,
+.fb-aqua.active{
+	background: #33CCCC;
+	box-shadow: 0px 0px 0px 0px #28a3a3;
+}
+
+.fb-red{
+	background: #e74c3c;
+	box-shadow: 0px 5px 0px 0px #c0392b;
+}
+.fb-red:active,
+.fb.red.active{
+	background: #e74c3c;
+	box-shadow: 0px 0px 0px 0px #c0392b;
+}
+
+.fb-grey{
+	background: #CCC;
+	box-shadow: 0px 5px 0px 0px #999;
+}
+.fb-grey:active,
+.fb-grey.active{
+	background: #CCC;
+	box-shadow: 0px 0px 0px 0px #999;
+}
+
+.fb-black{
+	background: #555;
+	box-shadow: 0px 5px 0px 0px #222;
+}
+.fb-black:active,
+.fb-black.active{
+	background: #555;
+	box-shadow: 0px 0px 0px 0px #222;
+}
+
+.fb-white{
+	background: #FFF;
+	box-shadow: 0px 5px 0px 0px #DDD;
+}
+.fb-white:active,
+.fb-white.active{
+	background: #FFF;
+	box-shadow: 0px 0px 0px 0px #DDD;
+}
+
