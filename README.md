@@ -1,6 +1,6 @@
 flatButtons.css
 ==============
-The fastest and easiest way to create amazing buttons with a flat style.
+The fast way to create buttons with a flat style.
 
 
 
@@ -58,7 +58,7 @@ Options
 License
 ==========
 
-Copyright (c) 2014 Daniele Petrarolo
+Copyright (c) 2017 Daniele Petrarolo
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
